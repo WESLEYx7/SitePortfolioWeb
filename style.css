@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.background-index{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+    height: 58vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    background-color: #fff;
+    height: 50pt;
+    padding: 25pt;
+}
+
+
+.logo{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#cordiferente-logo {
+    color: #ed2424;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+}
+
+.cabeçalho-link a{
+    color: #111;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover{
+    color: #ed2424;
+}
+
+.Meio{
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+}
+
+.Meio h1 {
+    font-size: 4rem;
+}
+
+
+.Meio button{
+    background-color: #ed2424;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5pt;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Meio button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Meio button:hover{
+      background-color: #d21a1a;
+}
+
+section{
+    padding-top: 7rem;
+}
+
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#Contato{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 5rem;
+    margin-top: 3rem;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    border-top-right-radius: 15pt;
+    border-top-left-radius: 15pt;
+}
+
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.meio-contato li{
+    margin-bottom: 15px;
+}
+
+.meio-contato li a{
+    display: block;
+    color: #555;
+    font-weight: 600;
+    transition: all .35s ease;
+}
+
+#mensagem {
+    color: #555;
+}
+
+#input-principal {
+    padding: 1rem;
+    border-radius: 5pt;
+}
+
+main.cards {
+    display: flex;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card h3 {
+    font-size: 100%;
+    margin: 16pt 0;
+    font-weight: bolder;
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 14pt;
+    margin-bottom: 16px;
+}
+
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+}
+
+
+main.cards section button {
+    background-color: #ed2424;
+}
+
+main.cards section button:hover {
+    background-color: #ae1e1e;
+    transition: 0.4s;
+}
+
+main.cards section {
+    box-shadow: 20px 20px 50px -30px #ed2424;
+    width: 250pt;
+    height: 250pt;
+}
+
+main.cards {
+    padding-left: 15%;
+}
+
+.section-form-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 30%;
+    height: 400pt;
+    background-color: #f3f2f2;
+    border-radius: 25pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-form-login form label {
+    font-size: 15pt;
+    font-family: 'Open Sans', sans-serif;
+    color: #ae1e1e;
+    margin: 2pt;
+}
+
+.section-form-login form input {
+    padding: 10pt;
+    border-radius: 10pt;
+    border: 2pt solid #ed2424;
+    margin: 5pt;
+    width: 70%;
+}
+
+.textosobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.section-sobre {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 25pt;
+    border-radius: 15pt;
+}
+
+.section-sobre span {
+    font-size: 17pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.segunda-section-sobre {
+    padding: 25pt;
+    background-color: #f8f8f8;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40pt;
+    border-radius: 15pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.segunda-section-sobre img {
+    width: 200pt;
+    height: 150pt;
+    border-radius: 15pt;
+}
+
+.segunda-section-sobre span {
+    padding: 12pt;
+    font-size: 20pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-termosuso {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40pt;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #f8f8f8;
+    padding: 25pt;
+    border-radius: 35pt;
+}
+
+.section-termosuso em {
+    font-size: 18pt;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 7pt;
+    padding: 15pt;
+}
+
+.section-termosuso span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    padding: 8pt;
+}
+
+#cor-planos {
+    color: #ed2424;
+}
+
+.planos-mensais {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main.cards02 {
+    display: flex;
+}
+
+main.cards02 section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
+    margin-top: 30pt;
+}
+
+main.cards02 section.card h3 {
+    font-size: 100%;
+    margin: 16pt 0;
+    font-weight: bolder;
+}
+
+main.cards02 section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 14pt;
+    margin-bottom: 16px;
+}
+
+main.cards02 section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+}
+
+
+main.cards02 section button {
+    background-color: #ed2424;
+}
+
+main.cards02 section button:hover {
+    background-color: #ae1e1e;
+    transition: 0.4s;
+}
+
+main.cards02 section {
+    box-shadow: 20px 20px 50px -30px #ed2424;
+    width: 250pt;
+    height: 250pt;
+}
+
+#roteador {
+    width: 200pt;
+    height: 200pt;
+    border-radius: 30pt;
+}
+
+#cabocat6 {
+    width: 120pt;
+    height: 120pt;
+    border-radius: 53pt;
+    margin-bottom: 25pt;
+}
+
+#carro-redesfast {
+    width: 150pt;
+    height: 120pt;
+    border-radius: 35pt;
+}
+
+#preco-visitec {
+    margin-top: 33pt;
+}
+
+#repetidor-wifi {
+    width: 130pt;
+    height: 130pt;
+    border-radius: 25pt;
+}
+
+#preco-repetidor {
+    margin-top: 13pt;
+}
+
+.section-planos {
+    margin-top: 25pt;
+    padding: 25pt;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20pt;
+    font-style: oblique;
+}
